@@ -3,7 +3,8 @@
 }
 body{
   margin: 0;
-  background: linear-gradient(to right , #a6319b,#e68a48);
+  background: linear-gradient(to right , #1acf99,#198c9b);
+  /* background-color: #198c9b ; */
 }
 .calculator-grid{
   display: grid;
@@ -26,6 +27,7 @@ body{
 
 .span-two{
   grid-column: span 2;
+  background-color:#351acf ;
 }
 .output{
   grid-column: 1/-1;
