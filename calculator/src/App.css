@@ -6,6 +6,10 @@ body{
   background: linear-gradient(to right , #1acf99,#198c9b);
   /* background-color: #198c9b ; */
 }
+.header-title{
+  text-align: center;
+  font-size: 3rem;
+}
 .calculator-grid{
   display: grid;
   margin-top: 2rem;

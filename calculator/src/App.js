@@ -122,6 +122,8 @@ function formatOperand(operand) {
 function App() {
   const[{previousOperand ,currentOperand,operation} , dispatch] = useReducer(reducer,{});
   return (
+    <>
+    <h1 className='header-title'>Simple Calculator</h1>
     <div className="calculator-grid">
       <div className="output">
         <div className="previous-operand">{formatOperand(previousOperand)}{operation}</div>
@@ -146,6 +148,7 @@ function App() {
       <DigitButton digit="0" dispatch={dispatch} />
       <button className="span-two"  onClick={() => dispatch({ type: ACTION.EVALUATE })}>=</button>
     </div>
+    </>
   );
 }
 
